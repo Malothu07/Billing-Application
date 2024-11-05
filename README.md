@@ -1,7 +1,4 @@
 # Online Shopping Cart (E-Commerce Website)
-- Youtube Video for introduction, demo and setup for this Project: https://www.youtube.com/watch?v=RgQG0_orFpM
-<!-- - YouTube video for step by step local setup of similar project: https://www.youtube.com/watch?v=mLFPodZO8Iw&t=8s -->
-<!-- Live site url: https://ellisonelectronics.herokuapp.com -->
 This is an E-Commerce Website build for selling of any electronics products online.
 
 ### About
@@ -12,8 +9,6 @@ The admin also plays an important role for this project as the admin is the one 
 
 One of the best functionality that the projects include is mailing the customers, so once a user registers to the website, they will recieve a mail for the successful registration to the website, and along with that whenever a user orders any product or the product got shipped from the store, then the user will also receive the email for its confirmation.
 Sometimes, if the user tried to add any item which is out of stock, them they will get an email one the item is available again the stock.
-
-Note: The payment page is created only for demo purpose and its not fully integrated with any payment gateway. So for now any credit card details will be accepted and the demo orders will be placed.
 
 ## Highlights :--
 
@@ -39,20 +34,11 @@ Note: The payment page is created only for demo purpose and its not fully integr
 3. Database:
 - MySql
 
-### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench [https://www.youtube.com/watch?v=t79oCeTXHwg]
-
-### ================= Dummy Database Initialization =================
+### =================  Database Initialization =================
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
 
 STEP 2: Login to the administrator user of MySql:
-	 ```mysql -u <username> -p``` (Enter Password if asked)
+	 mysql -u <username> -p (Enter Password if asked)
 
 STEP 3: Copy paste and execute the MySQL Query from the following file:-
 - Run the Sql Query From this file: [databases/mysql_query.sql](./databases/mysql_query.sql)
@@ -74,9 +60,9 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: https://github.com/shashirajraja/shopping-cart.git> Select master Branch > Next > Next > Finish.
 
-Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
+Step 3: Go inside Java Resources > src > application.properties and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
 - b) Update value for mailer.email and mailer.password, with the same email and app password that you generated earlier in above section [ NOTE:Actual gmail password will not work]
 
@@ -104,14 +90,17 @@ Step 10: Default Username And Password For Admin Is "admin@gmail.com" And "admin
 Step 11: The default Username And Password For User Is "guest@gmail.com" And "guest"
 
 ## FAQ
-**Question:1** Unable to Connect to Database?
+*Question:1* Unable to Connect to Database?
 
-**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in application.properties file. Also you can try doing maven clean install and force update the project and restart.
+*Answer:* Please check you have installed the mysql correctly and have updated the correct db details in application.properties file. Also you can try doing maven clean install and force update the project and restart.
 <hr>
 
-Note:- This is a Sample Project for learning purpose, we have not much considered of web security.
+Few sample images:
 
-#### Some Screenshots for the project:
+
+#### "Suggestions and project improvement ideas are welcomed!"
+
+<bold>Thanks a lot,</bold><br/>
 - Home Page
 ![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/6161fb90-ac83-445d-9fb2-56681f6a52b4)
 - Login Page
@@ -149,10 +138,9 @@ Note:- This is a Sample Project for learning purpose, we have not much considere
 - Class Diagram
 <img width="589" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/d6dbfdb9-5108-4071-b4b6-d055f0370acd">
 
-#### "Suggestions and project improvement ideas are welcomed!"
+
 
 <bold>Thanks a lot,</bold><br/>
-                                                                                                        Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                       
 
 
